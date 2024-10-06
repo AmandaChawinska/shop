@@ -1,9 +1,11 @@
+import "./styles/theme.css";
+import "./styles/globals.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import { createBrowseRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowseRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
