@@ -5,11 +5,11 @@
 }
 
 .iconMenu li {
-  postition: relative;
+  position: relative;
 }
 
 .numberOfProducts {
-  postition: absolute;
+  position: absolute;
   bottom: -0.5rem;
   right: -0.5rem;
   background-color: var(--color-yellow);
