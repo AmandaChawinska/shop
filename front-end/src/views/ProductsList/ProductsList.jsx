@@ -1,7 +1,7 @@
 import { Layout } from "../../components/Layout/Layout";
 import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu";
-import { BreadCrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
+import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
 import { Products } from "../../components/Products/Products";
 import { Pagination } from "../../components/Pagination/Pagination";
 export function ProductsList() {
@@ -164,7 +164,7 @@ export function ProductsList() {
       <FlexContainer>
         <ExpandableMenu />
         <div>
-          <BreadCrumbs />
+          <Breadcrumbs />
           <Products headerText="Swetry" products={products}></Products>
           <Pagination numberOfPages={5}></Pagination>
         </div>

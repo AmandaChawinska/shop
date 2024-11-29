@@ -2,7 +2,7 @@ import styles from "./Breadcrumbs.module.css";
 import { NavLink } from "react-router-dom";
 import ARROW_ICON from "../../assets/arrow.svg";
 
-export function BreadCrumbs() {
+export function Breadcrumbs() {
   const breadcrumbs = [
     {
       categoryName: "Kobieta",
